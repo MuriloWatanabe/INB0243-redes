@@ -3,137 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redes de Computadores</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Empresa de Jogos</title>
 </head>
 <body>
-
-    <div class="login-container">
-        <h1>Tela de Login</h1>
-        <input type="text" placeholder="Nome de usuário">
-        <input type="password" placeholder="Senha">
-        <button>Entrar</button>
-    </div>
-
+    <header>
+        <h1>Bem-vindo à Empresa de Jogos</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="jogos.html">Nossos Jogos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Sobre Nós</h2>
+            <p>Nós somos uma empresa apaixonada por jogos e estamos comprometidos em criar experiências incríveis para os jogadores.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Empresa de Jogos</p>
+    </footer>
 </body>
-
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        background-color: black;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        margin: 0;
-    }
-
-    .login-container {
-        background-color: lightgray;
-        border-radius: 5px;
-        padding: 20px;
-        box-shadow: 0 2px 5px #f2f2f2;
-        width: 300px;
-        text-align: center;
-    }
-
-    .login-container h1 {
-        font-size: 24px;
-        margin-bottom: 20px;
-        color: lightseagreen
-    }
-
-    .login-container input[type="text"],
-    .login-container input[type="password"] {
-        width: 100%;
-        padding: 10px;
-        margin-bottom: 10px;
-        border: 1px solid #ccc;
-        border-radius: 3px;
-    }
-
-    .login-container button {
-        width: 100%;
-        padding: 10px;
-        background-color: #007bff;
-        border: none;
-        border-radius: 3px;
-        color: white;
-        font-weight: bold;
-        cursor: pointer;
-    }
-
-    .login-container button:hover {
-        background-color: #0056b3;
-    }
-</style>
 </html>
-
-<!-- <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jogo: Adivinhe o Número</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f2f2f2;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
-
-        .game-container {
-            background-color: white;
-            border-radius: 5px;
-            padding: 20px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            text-align: center;
-        }
-
-        #guess-input {
-            padding: 10px;
-            width: 80px;
-        }
-
-        #result {
-            font-size: 18px;
-            margin-top: 10px;
-        }
-    </style>
-</head>
-<body>
-    <div class="game-container">
-        <h1>Jogo: Adivinhe o Número</h1>
-        <p>Eu escolhi um número entre 1 e 100. Tente adivinhar qual é:</p>
-        <input type="number" id="guess-input" min="1" max="100">
-        <button onclick="checkGuess()">Adivinhar</button>
-        <p id="result"></p>
-    </div>
-
-    <script>
-        // Gere um número aleatório entre 1 e 100
-        const targetNumber = Math.floor(Math.random() * 100) + 1;
-        let attempts = 0;
-
-        function checkGuess() {
-            const guessInput = document.getElementById('guess-input');
-            const result = document.getElementById('result');
-            const userGuess = parseInt(guessInput.value);
-
-            attempts++;
-
-            if (userGuess === targetNumber) {
-                result.textContent = `Parabéns! Você acertou em ${attempts} tentativas.`;
-                guessInput.disabled = true;
-            } else if (userGuess < targetNumber) {
-                result.textContent = 'Tente um número maior.';
-            } else {
-                result.textContent = 'Tente um número menor.';
-            }
-        }
-    </script>
-</body>
-</html> -->

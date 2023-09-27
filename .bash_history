@@ -46,3 +46,9 @@ git init
 git config user.name "murilowatanabe"
 git config user.email "murilonzowatanabe14@gmail.com"
 ls -al
+git config user.name "murilowatanabe"
+git config user.email "murilonzowatanabe14@gmail.com"
+pull
+git clone https://github.com/MuriloWatanabe/INB0243.git
+git config user.name "murilowatanabe"
+git config user.email "murilonzowatanabe14@gmail.com"
