@@ -52,3 +52,7 @@ pull
 git clone https://github.com/MuriloWatanabe/INB0243.git
 git config user.name "murilowatanabe"
 git config user.email "murilonzowatanabe14@gmail.com"
+git config user.email "nuneswillroberto@gmail.com"
+git config user.name "nunes-willi"
+git config user.name "nunes-willi"
+git config user.email "nuneswillroberto@gmail.com"
