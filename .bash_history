@@ -56,3 +56,9 @@ git config user.email "nuneswillroberto@gmail.com"
 git config user.name "nunes-willi"
 git config user.name "nunes-willi"
 git config user.email "nuneswillroberto@gmail.com"
+git config user.name "nunes-willi"
+git config user.email "nuneswillroberto@gmail.com"
+exit
+git config user.name "nunes-willi"
+git config user.email "nuneswillroberto@gmail.com"
+exit
